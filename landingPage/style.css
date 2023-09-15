@@ -1,0 +1,60 @@
+.container {
+    
+}
+
+.wholeHead {
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: column;
+    color: white
+}
+
+.topheader {
+    display: flex;
+    justify-content: space-around;
+}
+
+.headlogo {
+    margin: 20px;
+}
+
+.headlinks {
+    display: flex;
+    margin: 20px;
+    gap: 30px;
+
+}
+
+.headerLink {
+
+    color: white;
+    text-decoration: none;
+}
+
+.wordsAndStuff {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.hero{
+    font-size: 48px;
+    font-weight:bolder;
+}
+.wordsOnLeft {
+    
+}
+
+.imageOnRight {
+    background-color: gray;
+    width: 25%;
+    height: 200px;
+}
+
+.imgPlace {
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: 85px;
+    
+}
