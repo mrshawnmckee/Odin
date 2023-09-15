@@ -41,8 +41,12 @@
     font-size: 48px;
     font-weight:bolder;
 }
-.wordsOnLeft {
-    
+.signupbtn {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 20px;
 }
 
 .imageOnRight {
@@ -57,4 +61,88 @@
     position: relative;
     top: 85px;
     
+}
+
+.middleSection{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pAtTop {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.cardsinMiddle {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+
+    width: 100px;
+}
+
+.card {
+    height: 100px;
+    width: 100px;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
+.textUnder {
+    position: relative;
+    text-align: center;
+
+}
+
+.quoteSection {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    padding: 0 25%;
+    font-size: 36px;
+
+}
+.quoter {
+    padding: 0 25%;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.callToAction {
+    display: flex;
+    justify-content: center;
+
+}
+
+.blueBox {
+    width: 35%;
+    display: flex;
+    background-color: #3882f6;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.call {
+    font-weight: bolder;
+}
+
+.secondbtn {
+    position:relative;
+    top: 35px;
+    left: 90px;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #fff;
 }
