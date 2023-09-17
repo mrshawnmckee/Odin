@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.leftSide {
+    width: 20%;
+    flex: 1;
+}
+.norsePic {
+    height: 100%;
+    width: 100%;
+}
+
+.rightSide {
+    margin:10px;
+    flex: 2;
+}
+.names, .emailAndPhone, .password{
+    display: flex;
+    gap:8px;
+    margin: 10px;
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.formText {
+    font-size: 10px;
+}
+
+.subButton {
+    background-color: darkolivegreen;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.logIn {
+    margin: 10px;
+}
+.loginLink {
+    color: darkolivegreen;
+}
