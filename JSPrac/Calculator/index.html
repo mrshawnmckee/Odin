@@ -8,19 +8,28 @@
 </head>
 <body>
     <div class="container">
-        <div class="head1"><h1>Calculator</h1></div>
-        <div class="display"></div>
-        <div class="keypad">
-            <div class="topkeys">
-                <span class="keys 1">1</span><span class="keys 2">2</span><span class="keys 3">3</span><span class="keys divide">/</span>
+        <div class="calculator">
+            <div class="head1"><h1>Calculator</h1></div>
+            <div class="display">
+                <div class="screen">
+                    <div class="previous"></div>
+                    <div class="current"></div>
+                </div>
+                <button class ="keys clear">C</button>
             </div>
-            <div class="middlekeys">
-                <span class="keys 4">4</span><span class="keys 5">5</span><span class="keys 6">6</span><span class="keys multiply">*</span>
+            <div class="keypad">
+                <div class="topkeys">
+                    <button class="keys numbers">1</button><button class="keys numbers">2</button><button class="keys numbers">3</button><button class="keys operators">/</button>
+                </div>
+                <div class="middlekeys">
+                    <button class="keys numbers">4</button><button class="keys numbers">5</button><button class="keys numbers">6</button><button class="keys operators">*</button>
+                </div>
+                <div class="bottomkeys">
+                    <button class="keys numbers">7</button><button class="keys numbers">8</button><button class="keys numbers">9</button><button class="keys operators">-</button>
+                </div>
+                <div class="otherkeys">
+                    <button class="keys decimal">.</button><button class="keys numbers">0</button><button class="keys equals">=</button><button class="keys operators">+</button>
             </div>
-            <div class="bottomkeys">
-                <span class="keys 7">7</span><span class="keys 8">8</span><span class="keys 9">9</span><span class="keys minus">-</span>
-            </div>
-            <div class="otherkeys"><span class="keys">.</span><span class="keys 0">0</span><span class="keys equals">=</span><span class="keys plus">+</span></div>
         </div>
     </div>
     <script src="script.js"></script>
