@@ -14,3 +14,4 @@ const doMath = function(num1, num2, operator){
     }
 
 }
+
