@@ -90,12 +90,10 @@ function addDecimal(){
 
 // Dark mode
 const container = document.querySelector('.container');
-const calc = document.querySelector('.calculator')
 const toggle = document.querySelector('.toggle')
 
 // Add the class dark to the container when the toggle button is clicked
 toggle.addEventListener('click',() => {
     container.classList.toggle("dark");
-    // calc.classList.toggle("dark");
     
 })

@@ -33,7 +33,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* Horizontal, vertical, blur, radius, color */
     box-shadow: 5px 3px 8px 5px #a9a9a9 ;
 }
 
