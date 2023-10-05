@@ -117,3 +117,9 @@
     background-color: #696969;
     color: var(--clr-light);
 }
+
+.container.dark .keys:hover {
+    /* background-color: #262626; */
+    background-color: aliceblue;
+
+}
